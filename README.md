@@ -12,8 +12,24 @@
 Still in Active Development.
 
 ## Screenshots
-
-       
+<img src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/favorite-screenshot-1.png"
+data-canonical-src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/favorite-screenshot-1.png"
+width="220" height="450" />
+<img src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/favorite-screenshot-2.png"
+data-canonical-src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/favorite-screenshot-2.png"
+width="220" height="450" />
+<img src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-3.jpeg"
+data-canonical-src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-3.jpeg"
+width="220" height="450" />
+<img src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-4.jpeg"
+data-canonical-src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-4.jpeg"
+width="220" height="450" />
+<img src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-5.jpeg"
+data-canonical-src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-5.jpeg"
+width="220" height="450" />
+<img src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-6.jpeg"
+data-canonical-src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-6.jpeg"
+width="220" height="450" />
        
 ## Running the project
  - Sync the Gradle and run the project. Install APK on your emulator or real device.
