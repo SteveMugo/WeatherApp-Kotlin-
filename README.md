@@ -36,6 +36,16 @@ width="220" height="450" />
  - Turn on the internet of your testing device. For better understanding, please read the comments on the methods.
  - Hope, these comments will help you to feel the MVVM Architecture.
 
+## Architecture
+The app uses MVVM [Model-View-ViewModel] architecture to have a unidirectional flow of data, separation of concern, testability, and a lot more.
+
+![Architecture](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
+
+## Libraries and tools 🛠
+<li><a href="https://developer.android.com/topic/libraries/architecture/navigation/">Navigation</a></li>
+<li><a href="https://developer.android.com/training/data-storage/shared-preferences">Shared Preferences</a></li>
+<li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel">ViewModel</a></li>
+<li><a href="https://developer.android.com/topic/libraries/architecture/livedata">LiveData</a></li>
 ## TODO & Discalimer
  - There are some other ways of implementation of MVVM, using MVC, MVP, I chose MVVM as it best showcased the assignment implementation.
  - For example MVVM can be used with Rx and Dagger. But it's not mandatory to use Rx or Dagger in MVVM. 
