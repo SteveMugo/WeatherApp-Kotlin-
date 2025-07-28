@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_padding">8dp</dimen>
+    <dimen name="list_item_size">100dp</dimen>
+    <dimen name="list_weather_icon_size">30dp</dimen>
+    <dimen name="list_weather_icon_size_large">36dp</dimen>
+    <dimen name="margin_end">56dp</dimen>
+    <dimen name="margin_top">16dp</dimen>
+
+    <dimen name="weather_temp_font_size">36sp</dimen>
+    <dimen name="weather_card_title">16sp</dimen>
+    <dimen name="weather_focus_title">18sp</dimen>
+</resources>

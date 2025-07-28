@@ -1,0 +1,37 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+//        maven { url "https://jitpack.io" }
+    }
+
+
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+//        maven { url "https://jitpack.io" }
+    }
+}
+
+rootProject.name = "Appk Weather"
+include( ":app")
+
+
+//        <com.loopeer.shadow.ShadowView
+//android:layout_width="wrap_content"
+//android:layout_height="wrap_content"
+//android:layout_alignBottom="@id/cardView"
+//android:layout_centerHorizontal="true"
+//android:layout_marginBottom="-40dp"
+//app:cornerRadius="40dp"
+//app:shadowColor="@{viewModel.item.getColor()}"
+//app:shadowDx="3"
+//app:shadowDy="30"
+//app:shadowMarginBottom="40dp"
+//app:shadowMarginLeft="34dp"
+//app:shadowMarginRight="34dp"
+//app:shadowRadius="34dp">
