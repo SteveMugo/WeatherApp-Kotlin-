@@ -8,7 +8,7 @@ object Constants {
 
     const val BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
     const val BASE_URL_FORECAST = "https://api.openweathermap.org/data/2.5/forecast?"
-    const val OPEN_WEATHER_API_KEY = "149c99fb003a027db2dc77d1f960e994"
+    const val OPEN_WEATHER_API_KEY = "your-token-goes-here"
 
     @SuppressLint("SimpleDateFormat")
     fun getDate(date: Long): String {
