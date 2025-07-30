@@ -3,6 +3,7 @@
     <string name="app_logo_desc">logo</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="APIString">d9abb2c1d05c5882e937cffd1ecd4923</string>
+    <string name="OpenAPIString">149c99fb003a027db2dc77d1f960e994</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="city_list_view">City list view</string>
     <string name="appk_weather"> WeatherApp</string>

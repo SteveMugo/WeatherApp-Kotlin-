@@ -17,6 +17,11 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags += ""
+            }
+        }
     }
 
     buildFeatures {
@@ -43,6 +48,12 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    externalNativeBuild {
+        cmake {
+            path = file("src/main/cpp/CMakeLists.txt")
+            version = "3.22.1"
+        }
     }
 }
 
@@ -101,18 +112,37 @@ dependencies {
 
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
+
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
 
     // Feature module Support
     implementation("androidx.navigation:navigation-dynamic-features-fragment:2.4.2")
+    //implementation("androidx.test:runner:2.4.2")
+    implementation("com.jakewharton.threetenabp:threetenabp:1.4.9")
+
+    // search Algolia Kotlin API client
+    implementation("com.algolia:algoliasearch-client-kotlin:3.4.0")
+
+    implementation("io.ktor:ktor-client-okhttp:2.0.1")
+    implementation("io.ktor:ktor-client-cio:2.0.1")
+    implementation("com.google.truth.extensions:truth-java8-extension:1.1.5")
 
     // Testing Navigation
     androidTestImplementation("androidx.navigation:navigation-testing:2.4.2")
+    testImplementation("io.mockk:mockk:1.14.2")
+    androidTestImplementation("io.mockk:mockk-android:1.14.2")
+
+    // For JUnit 4 tests
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.robolectric:robolectric:4.15.1")
+    testImplementation("androidx.test.ext:junit:1.2.1")
+
+    // For instrumented tests
+    androidTestImplementation("androidx.test:rules:1.5.0")
 
     // Jetpack Compose Integration
     implementation("androidx.navigation:navigation-compose:2.4.2")
-
 
     // Java language implementation
     implementation("androidx.navigation:navigation-fragment-ktx:2.4.2")
