@@ -15,8 +15,6 @@ Still in Active Development.
 <img src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/favorite-screenshot-1.png"
 data-canonical-src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/favorite-screenshot-1.png"
 width="220" height="450" />
-
-width="220" height="450" />
 <img src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-3.jpeg"
 data-canonical-src="https://github.com/SteveMugo/WeatherApp-Kotlin-/blob/main/screenshots/screenshot-3.jpeg"
 width="220" height="450" />
