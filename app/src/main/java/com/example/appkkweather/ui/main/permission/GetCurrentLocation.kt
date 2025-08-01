@@ -21,7 +21,7 @@ import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationServices
 import com.example.appkkweather.ui.main.MainActivity
 
-class getCurrentLocation(val activity: Activity) {
+class GetCurrentLocation(val activity: Activity) {
 
     //fused location
     private lateinit var mFusedLocationClient: FusedLocationProviderClient

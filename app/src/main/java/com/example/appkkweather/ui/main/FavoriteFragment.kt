@@ -110,7 +110,7 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite), cityDetailInterfa
         val arrayList: java.util.ArrayList<favoriteModel> = java.util.ArrayList<favoriteModel>()
 
         for (model in data) {
-            if (model.city.toLowerCase().contains(city)) {
+            if (model.city.lowercase().contains(city)) {
                 recyclerView.setVisibility(View.VISIBLE)
                 arrayList.add(model)
             } else {

@@ -58,4 +58,10 @@
     <color name="home_rainy1">#dbdadb</color>
     <color name="home_rainy2">#cccaca</color>
 
+    <color name="mainTextColor">#130E51</color>
+    <color name="chipItemBackgroundColor">#1AADA7FE</color>
+    <color name="chipTextColor">#5D50FE</color>
+    <color name="whiteWithOpacity">#33FFFFFF</color>
+    <color name="whiteWithHalfOpacity">#80FFFFFF</color>
+
 </resources>

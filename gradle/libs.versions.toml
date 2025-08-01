@@ -1,0 +1,13 @@
+[versions]
+kotlin = "2.2.0"
+gradle = "8.13.0-alpha03"
+places = "4.4.1"
+[libraries]
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
+places = { group = "com.google.android.libraries.places", name = "places", version.ref = "places" }
+
+[plugins]
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinKapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

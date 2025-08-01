@@ -13,7 +13,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.example.appkkweather.R
-import com.example.appkkweather.ui.main.permission.getCurrentLocation
+import com.example.appkkweather.ui.main.permission.GetCurrentLocation
 import com.example.appkkweather.ui.user.ContinueWithGoogle
 
 
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         showFragment(SplashScreen(true), false)
 
         //get current location
-        getCurrentLocation(this).getLastLocation()
+        GetCurrentLocation(this).getLastLocation()
 
     }
 
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == PERMISSION_ID) {
             if ((grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
-                getCurrentLocation(this).getLastLocation()
+                GetCurrentLocation(this).getLastLocation()
 
                 //show Splash screen
                 showFragment(SplashScreen(true), false)
